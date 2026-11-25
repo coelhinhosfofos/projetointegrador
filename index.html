@@ -1,0 +1,452 @@
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Ink House | Tattoo & Piercing</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+
+<body>
+
+    <!-- CABEÇALHO -->
+    <header class="header">
+
+        <a class="logo" href="#inicio">
+            <span>INK</span> HOUSE
+            <small>TATTOO • PIERCING</small>
+        </a>
+
+        <button class="menu-toggle" id="menuToggle">
+            ☰
+        </button>
+
+        <nav id="navMenu" class="nav">
+            <a href="#inicio">Início</a>
+            <a href="#sobre">Sobre</a>
+            <a href="#galeria">Galeria</a>
+            <a href="#servicos">Serviços</a>
+            <a href="#artistas">Artistas</a>
+            <a href="#agendamento" class="nav-cta">Agendar</a>
+        </nav>
+
+        <!-- BOTÃO DE MODO CLARO E ESCURO -->
+        <button class="theme-toggle" id="themeToggle">
+            <span id="themeIcon">☀</span>
+            <span id="themeLabel">Modo claro</span>
+        </button>
+
+    </header>
+
+    <main>
+
+        <!-- INÍCIO -->
+        <section class="hero" id="inicio">
+
+            <div class="hero-content">
+
+                <p class="eyebrow">
+                    SUA PELE • SUA HISTÓRIA • SUA ARTE
+                </p>
+
+                <h1>
+                    ARTE QUE<br>
+                    <span>MARCA.</span>
+                </h1>
+
+                <p class="hero-text">
+                    Mais do que tatuagens e piercings.
+                    Um espaço para transformar ideias em expressão.
+                </p>
+
+                <div class="hero-buttons">
+
+                    <a href="#agendamento" class="btn btn-primary">
+                        Faça seu orçamento ↗
+                    </a>
+
+                    <a href="#galeria" class="btn btn-outline">
+                        Explore nosso trabalho
+                    </a>
+
+                </div>
+
+            </div>
+
+            <div class="hero-image"></div>
+
+            <div class="hero-stamp">
+                <span>INK</span>
+                <span>YOUR</span>
+                <span>STORY</span>
+            </div>
+
+        </section>
+
+        <!-- SOBRE -->
+        <section class="intro section" id="sobre">
+
+            <div class="section-tag">01 / QUEM SOMOS</div>
+
+            <div class="intro-grid">
+
+                <h2>
+                    LIBERDADE<br>
+                    DE <span>EXPRESSÃO.</span>
+                </h2>
+
+                <div>
+
+                    <p class="lead">
+                        Um estúdio feito para quem não tem medo de ser diferente.
+                    </p>
+
+                    <p>
+                        A Ink House nasceu da paixão pela arte,
+                        pela individualidade e por transformar
+                        referências em trabalhos únicos.
+                        Aqui, cada projeto é pensado junto com você,
+                        respeitando sua ideia, seu estilo e sua história.
+                    </p>
+
+                    <a href="#artistas" class="text-link">
+                        Conheça os artistas ↗
+                    </a>
+
+                </div>
+
+            </div>
+
+        </section>
+
+        <!-- GALERIA -->
+        <section class="gallery section" id="galeria">
+
+            <div class="section-tag">02 / INSPIRAÇÃO</div>
+
+            <div class="section-heading">
+
+                <h2>
+                    NA PELE,<br>
+                    <span>NA ARTE.</span>
+                </h2>
+
+                <p>
+                    Alguns estilos e referências para
+                    inspirar sua próxima ideia.
+                </p>
+
+            </div>
+
+            <div class="gallery-grid">
+
+                <figure class="gallery-card tall">
+
+                    <img src="https://images.unsplash.com/photo-1568515387631-8bcbad2b0bce?auto=format&fit=crop&w=900&q=85"
+                    alt="Tatuagem artística">
+
+                    <figcaption>01 BLACKWORK</figcaption>
+
+                </figure>
+
+                <figure class="gallery-card">
+
+                    <img src="https://images.unsplash.com/photo-1598373120743-5b1f6a6e7e15?auto=format&fit=crop&w=900&q=85"
+                    alt="Detalhe de tatuagem">
+
+                    <figcaption>02 FINE LINE</figcaption>
+
+                </figure>
+
+                <figure class="gallery-card">
+
+                    <img src="https://images.unsplash.com/photo-1611501275019-9b5c8f7f4c6d?auto=format&fit=crop&w=900&q=85"
+                    alt="Tatuagem artística">
+
+                    <figcaption>03 TRADICIONAL</figcaption>
+
+                </figure>
+
+                <figure class="gallery-card wide">
+
+                    <img src="https://images.unsplash.com/photo-1611510836946-8f7f4f8a2b7e?auto=format&fit=crop&w=1000&q=85"
+                    alt="Artista trabalhando">
+
+                    <figcaption>04 CUSTOM ART</figcaption>
+
+                </figure>
+
+            </div>
+
+        </section>
+
+        <!-- SERVIÇOS -->
+        <section class="services section" id="servicos">
+
+            <div class="section-tag">03 / O QUE FAZEMOS</div>
+
+            <h2>DO SEU JEITO.</h2>
+
+            <div class="service-grid">
+
+                <article class="service-card">
+
+                    <div class="service-icon">✳</div>
+
+                    <h3>TATUAGENS</h3>
+
+                    <p>
+                        Projetos autorais, personalizados e
+                        em diferentes estilos. Sua ideia ganha
+                        forma com cuidado e criatividade.
+                    </p>
+
+                    <a href="#agendamento" class="text-link">
+                        Solicitar orçamento ↗
+                    </a>
+
+                </article>
+
+                <article class="service-card">
+
+                    <div class="service-icon">◈</div>
+
+                    <h3>PIERCINGS</h3>
+
+                    <p>
+                        Perfurações com orientação,
+                        atenção aos cuidados e materiais
+                        apropriados para cada procedimento.
+                    </p>
+
+                    <a href="#agendamento" class="text-link">
+                        Consultar serviço ↗
+                    </a>
+
+                </article>
+
+                <article class="service-card">
+
+                    <div class="service-icon">✎</div>
+
+                    <h3>ARTE PERSONALIZADA</h3>
+
+                    <p>
+                        Vamos desenvolver sua ideia,
+                        reunir referências e pensar em um
+                        desenho que tenha sua identidade.
+                    </p>
+
+                    <a href="#agendamento" class="text-link">
+                        Conte sua ideia ↗
+                    </a>
+
+                </article>
+
+            </div>
+
+        </section>
+
+        <!-- PROFISSIONAIS -->
+        <section class="artists section" id="artistas">
+
+            <div class="section-tag">04 / NOSSO TIME</div>
+
+            <div class="section-heading">
+
+                <h2>
+                    QUEM FAZ<br>
+                    <span>A ARTE.</span>
+                </h2>
+
+                <p>
+                    Artistas que transformam ideias
+                    em trabalhos únicos.
+                </p>
+
+            </div>
+
+            <div class="artist-grid">
+
+                <article class="artist-card">
+
+                    <img src="https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?auto=format&fit=crop&w=700&q=80"
+                    alt="Foto ilustrativa do tatuador">
+
+                    <div class="artist-info">
+                        <p class="eyebrow">TATUADOR</p>
+                        <h3>Artista 01</h3>
+                        <p>Blackwork • Fine line</p>
+                    </div>
+
+                </article>
+
+                <article class="artist-card">
+
+                    <img src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=700&q=80"
+                    alt="Foto ilustrativa da tatuadora">
+
+                    <div class="artist-info">
+                        <p class="eyebrow">TATUADORA</p>
+                        <h3>Artista 02</h3>
+                        <p>Floral • Custom</p>
+                    </div>
+
+                </article>
+
+                <article class="artist-card">
+
+                    <img src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&w=700&q=80"
+                    alt="Foto ilustrativa do profissional">
+
+                    <div class="artist-info">
+                        <p class="eyebrow">PIERCER</p>
+                        <h3>Artista 03</h3>
+                        <p>Perfurações • Body jewelry</p>
+                    </div>
+
+                </article>
+
+            </div>
+
+            <p class="note">
+                *Nomes e perfis ilustrativos para o protótipo.
+            </p>
+
+        </section>
+
+        <!-- AGENDAMENTO -->
+        <section class="booking section" id="agendamento">
+
+            <div class="section-tag">05 / VAMOS CRIAR?</div>
+
+            <div class="booking-grid">
+
+                <div>
+
+                    <h2>
+                        COMECE<br>
+                        SUA <span>IDEIA.</span>
+                    </h2>
+
+                    <p>
+                        Preencha o formulário para contar
+                        o que você está pensando.
+                        Entraremos em contato para conversar
+                        sobre o serviço.
+                    </p>
+
+                    <p class="booking-note">
+                        O formulário é uma solicitação,
+                        não confirma automaticamente um horário.
+                    </p>
+
+                </div>
+
+                <form id="bookingForm">
+
+                    <label for="nome">Nome completo</label>
+                    <input type="text" id="nome" required
+                    placeholder="Seu nome">
+
+                    <label for="telefone">Telefone / WhatsApp</label>
+                    <input type="tel" id="telefone" required
+                    placeholder="(00) 00000-0000">
+
+                    <label for="tipo">Serviço</label>
+
+                    <select id="tipo" required>
+                        <option value="">Selecione uma opção</option>
+                        <option>Tatuagem</option>
+                        <option>Piercing</option>
+                        <option>Arte personalizada</option>
+                        <option>Outro / dúvida</option>
+                    </select>
+
+                    <label for="data">Data de preferência</label>
+                    <input type="date" id="data">
+
+                    <label for="ideia">Conte um pouco sobre sua ideia</label>
+                    <textarea id="ideia" rows="4"
+                    placeholder="Descreva sua ideia..."></textarea>
+
+                    <button class="btn btn-primary form-button"
+                    type="submit">
+                        Enviar solicitação ↗
+                    </button>
+
+                    <p id="formMessage" class="form-message"
+                    role="status" aria-live="polite"></p>
+
+                </form>
+
+            </div>
+
+        </section>
+
+        <!-- CONTATO -->
+        <section class="contact section" id="contato">
+
+            <div class="section-tag">06 / ENCONTRE A GENTE</div>
+
+            <h2>VAMOS CONVERSAR.</h2>
+
+            <div class="contact-grid">
+
+                <div>
+                    <h3>INK HOUSE</h3>
+                    <p>Santa Cruz do Sul • RS</p>
+                    <p>Endereço a definir</p>
+                </div>
+
+                <div>
+                    <h3>CONTATO</h3>
+                    <p>WhatsApp: (inserir número)</p>
+                    <p>Instagram: @inkhouse</p>
+                </div>
+
+                <div>
+                    <h3>ATENDIMENTO</h3>
+                    <p>Horários a combinar por agendamento.</p>
+                    <p>Entre em contato para consultar disponibilidade.</p>
+                </div>
+
+            </div>
+
+        </section>
+
+    </main>
+
+    <!-- RODAPÉ -->
+    <footer class="footer">
+
+        <a class="logo" href="#inicio">
+            <span>INK</span> HOUSE
+            <small>TATTOO • PIERCING</small>
+        </a>
+
+        <p>Arte, estilo e expressão.</p>
+
+        <p>
+            © <span id="year"></span> Ink House
+            • Projeto Integrador
+        </p>
+
+    </footer>
+
+    <button id="backTop" class="back-top">
+        ↑
+    </button>
+
+</body>
+</html>
+
